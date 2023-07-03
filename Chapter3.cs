@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace QUQU
 {
-    public partial class Form1 : Form
+    public partial class Chapter3 : Form
     {
-        public Form1()
+        public Chapter3()
         {
             InitializeComponent();
         }
