@@ -78,6 +78,9 @@
     <Compile Include="Quiz.Designer.cs">
       <DependentUpon>Quiz.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Chapter4.resx">
+      <DependentUpon>Chapter4.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace QUQU
 {
-    public partial class Chapter4 : Form
+    public partial class Pobeda41 : Form
     {
-        public Chapter4()
+        public Pobeda41()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("")
         }
     }
 }

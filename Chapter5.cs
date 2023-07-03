@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace QUQU
 {
-    public partial class Chapter4 : Form
+    public partial class Chapter5 : Form
     {
-        public Chapter4()
+        public Chapter5()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("")
         }
     }
 }

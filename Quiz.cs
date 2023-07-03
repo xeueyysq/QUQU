@@ -36,7 +36,8 @@ namespace QUQU
             }
             else
             {
-                MessageBox.Show("Попробуйте ещё раз");
+                MessageBox.Show("Ящеры съели вас за то, что вы не отгадали простейшую загадку. Вы проиграли.");
+                Environment.Exit(0);
             }
         }
     }
