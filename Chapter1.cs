@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace QUQU
 {
-    public partial class Form2 : Form
+    public partial class Chapter1 : Form
     {
-        public Form2()
+        public Chapter1()
         {
             InitializeComponent();
         }
@@ -23,7 +23,7 @@ namespace QUQU
                 "Твоя отвага воодушевляет русских воинов, и вы наносите мощный удар, разгромляя ящеров. " +
                 "Победа достается русским, и они заслуживают твое уважение и признание.", "Атака напрямую", MessageBoxButtons.OK);
             this.Hide();
-            new Form3().Show();
+            new Chapter2().Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -33,7 +33,7 @@ namespace QUQU
                 "Русские воины наносят сокрушительный удар, положив конец вражескому сопротивлению. " +
                 "Победа достается русским, и твое имя становится легендарным.", "Обход флангов", MessageBoxButtons.OK);
             this.Hide();
-            new Form3().Show();
+            new Chapter2().Show();
         }
     }
 }

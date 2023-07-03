@@ -10,11 +10,30 @@ using System.Windows.Forms;
 
 namespace QUQU
 {
-    public partial class Form3 : Form
+    public partial class Chapter2 : Form
     {
-        public Form3()
+        public Chapter2()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Ты решаешь напасть на крепость с фронта. " +
+                "Враги встречают вас огнем, но ты сумел предвидеть их действия и разгромить защиту. " +
+                "Твоя атака приносит победу русским, и ты становишься героем народа.", "Фронтальная атака", MessageBoxButtons.OK);
+            //this.Hide();
+            //new Chapter4().Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Ты решаешь использовать подкопы для проникновения внутрь крепости. " +
+                "Твои специальные знания и навыки позволяют тебе незаметно проникнуть внутрь. " +
+                "Однако, ты оказываешься в западне и попадаешь в плен к ящерам. " +
+                "Ты стал заложником, и твоя судьба зависит от того, сможешь ли ты найти способ освободиться.", "Подкопы", MessageBoxButtons.OK);
+            this.Hide();
+            new Chapter3().Show();
         }
     }
 }

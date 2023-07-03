@@ -46,29 +46,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Chapter4.cs">
+    <Compile Include="Chapter3.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Chapter4.Designer.cs">
-      <DependentUpon>Chapter4.cs</DependentUpon>
+    <Compile Include="Chapter3.Designer.cs">
+      <DependentUpon>Chapter3.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="Chapter1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="Chapter1.Designer.cs">
+      <DependentUpon>Chapter1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form3.cs">
+    <Compile Include="Chapter2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3.Designer.cs">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <Compile Include="Chapter2.Designer.cs">
+      <DependentUpon>Chapter2.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -78,17 +78,17 @@
     <Compile Include="Quiz.Designer.cs">
       <DependentUpon>Quiz.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Chapter4.resx">
-      <DependentUpon>Chapter4.cs</DependentUpon>
+    <EmbeddedResource Include="Chapter3.resx">
+      <DependentUpon>Chapter3.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="Chapter1.resx">
+      <DependentUpon>Chapter1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <EmbeddedResource Include="Chapter2.resx">
+      <DependentUpon>Chapter2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -118,6 +118,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\lMvL25OEV3k.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\93000a0a78c84f1daae10f80183355de_00000.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\922c51b1771f4215a9bec0813017ebd7_00000.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bf74839edf9d40c19dc0f0c55a4ead1e_00000.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

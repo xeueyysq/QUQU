@@ -63,6 +63,36 @@ namespace QUQU.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _922c51b1771f4215a9bec0813017ebd7_00000 {
+            get {
+                object obj = ResourceManager.GetObject("_922c51b1771f4215a9bec0813017ebd7_00000", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _93000a0a78c84f1daae10f80183355de_00000 {
+            get {
+                object obj = ResourceManager.GetObject("_93000a0a78c84f1daae10f80183355de_00000", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bf74839edf9d40c19dc0f0c55a4ead1e_00000 {
+            get {
+                object obj = ResourceManager.GetObject("bf74839edf9d40c19dc0f0c55a4ead1e_00000", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap lMvL25OEV3k {
             get {
                 object obj = ResourceManager.GetObject("lMvL25OEV3k", resourceCulture);
