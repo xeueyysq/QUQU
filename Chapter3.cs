@@ -22,8 +22,8 @@ namespace QUQU
             MessageBox.Show("Ты решаешь попытаться выйти из плену самостоятельно. " +
                 "Используя свои навыки и сообразительность, ты находишь выход, но тебя уже поджидали ящеры. " +
                 "Тебе не стали жалеть и тот же час расправились.", "Выбраться самостоятельно", MessageBoxButtons.OK);
-            //this.Hide();
-            //new Chapter4().Show();
+            this.Hide();
+            new Chapter4().Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -31,8 +31,8 @@ namespace QUQU
             MessageBox.Show("Ты решаешь не рисковать и пытаешься найти союзников внутри крепости. " +
                 "Твоя находчивость позволяет тебе убедить некоторых ящеров перейти на твою сторону. " +
                 "Но взамен надо отгадать их загадку.", "Помощь сокамерников", MessageBoxButtons.OK);
-            //this.Hide();
-            //new Quiz().Show();
+            this.Hide();
+            new Quiz().Show();
         }
     }
 }

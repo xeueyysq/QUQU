@@ -22,8 +22,8 @@ namespace QUQU
             MessageBox.Show("Ты решаешь напасть на крепость с фронта. " +
                 "Враги встречают вас огнем, но ты сумел предвидеть их действия и разгромить защиту. " +
                 "Твоя атака приносит победу русским, и ты становишься героем народа.", "Фронтальная атака", MessageBoxButtons.OK);
-            //this.Hide();
-            //new Chapter4().Show();
+            this.Hide();
+            new Chapter4().Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
