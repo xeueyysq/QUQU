@@ -117,4 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>Ты решаешь нанести удар в самый подходящий момент.
+Твое стратегическое мышление и отличная координация войск
+позволяют вам разгромить ящеров и завершить войну в пользу русских.
+Ты становишься легендой и наследником великих воинов.</value>
+  </data>
 </root>
