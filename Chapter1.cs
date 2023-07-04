@@ -35,5 +35,10 @@ namespace QUQU
             this.Hide();
             new Chapter2().Show();
         }
+
+        private void Chapter1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

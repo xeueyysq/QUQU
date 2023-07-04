@@ -21,16 +21,22 @@ namespace QUQU
         {
             if (textBox4.Text == "земля" || textBox4.Text == "Земля")
             {
+                MessageBox.Show("Ты отгадал загадку и заключенные помогли тебе сбежать. Ты вернулся ко своей армии", "Побег удался", MessageBoxButtons.OK);
                 this.Hide();
                 new Chapter4().Show();
             }
             else
             {
-                MessageBox.Show("Ящеры съели вас за то, что вы не отгадали простейшую загадку", "Чел, ты нулевый", MessageBoxButtons.OK);
+                MessageBox.Show("Ящеры съели вас за то, что вы не отгадали простейшую загадку", "Побег провалился", MessageBoxButtons.OK);
                 this.Hide();
                 new Lose().Show();
                 //Environment.Exit(0);
             }
+        }
+
+        private void Quiz_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
