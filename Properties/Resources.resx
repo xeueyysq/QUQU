@@ -118,11 +118,29 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="a4cec9835252411495450c1231a25a94_00000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\a4cec9835252411495450c1231a25a94_00000.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="bf74839edf9d40c19dc0f0c55a4ead1e_00000" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bf74839edf9d40c19dc0f0c55a4ead1e_00000.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="f6ac5ed9cca04cfbb8b2000ce95a03e4_00000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f6ac5ed9cca04cfbb8b2000ce95a03e4_00000.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="free_icon_pangolin_3060656" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\free-icon-pangolin-3060656.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="lMvL25OEV3k" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lMvL25OEV3k.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_09aee4474a9c4496b90fb1b7f709deb8_00000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\09aee4474a9c4496b90fb1b7f709deb8_00000.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2f6af9a562de4b48b14cf3886b023736_00000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2f6af9a562de4b48b14cf3886b023736_00000.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_83d62c1f94834a1cb32f21e57aadc4c5_00000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\83d62c1f94834a1cb32f21e57aadc4c5_00000.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="_922c51b1771f4215a9bec0813017ebd7_00000" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\922c51b1771f4215a9bec0813017ebd7_00000.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

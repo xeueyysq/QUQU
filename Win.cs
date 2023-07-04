@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace QUQU
 {
-    public partial class Pobeda41 : Form
+    public partial class Win : Form
     {
-        public Pobeda41()
+        public Win()
         {
             InitializeComponent();
         }

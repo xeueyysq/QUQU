@@ -63,6 +63,36 @@ namespace QUQU.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _09aee4474a9c4496b90fb1b7f709deb8_00000 {
+            get {
+                object obj = ResourceManager.GetObject("_09aee4474a9c4496b90fb1b7f709deb8_00000", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2f6af9a562de4b48b14cf3886b023736_00000 {
+            get {
+                object obj = ResourceManager.GetObject("_2f6af9a562de4b48b14cf3886b023736_00000", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _83d62c1f94834a1cb32f21e57aadc4c5_00000 {
+            get {
+                object obj = ResourceManager.GetObject("_83d62c1f94834a1cb32f21e57aadc4c5_00000", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _922c51b1771f4215a9bec0813017ebd7_00000 {
             get {
                 object obj = ResourceManager.GetObject("_922c51b1771f4215a9bec0813017ebd7_00000", resourceCulture);
@@ -83,9 +113,39 @@ namespace QUQU.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap a4cec9835252411495450c1231a25a94_00000 {
+            get {
+                object obj = ResourceManager.GetObject("a4cec9835252411495450c1231a25a94_00000", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bf74839edf9d40c19dc0f0c55a4ead1e_00000 {
             get {
                 object obj = ResourceManager.GetObject("bf74839edf9d40c19dc0f0c55a4ead1e_00000", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap f6ac5ed9cca04cfbb8b2000ce95a03e4_00000 {
+            get {
+                object obj = ResourceManager.GetObject("f6ac5ed9cca04cfbb8b2000ce95a03e4_00000", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap free_icon_pangolin_3060656 {
+            get {
+                object obj = ResourceManager.GetObject("free_icon_pangolin_3060656", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

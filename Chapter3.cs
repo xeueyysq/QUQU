@@ -21,9 +21,9 @@ namespace QUQU
         {
             MessageBox.Show("Ты решаешь попытаться выйти из плену самостоятельно. " +
                 "Используя свои навыки и сообразительность, ты находишь выход, но тебя уже поджидали ящеры. " +
-                "Тебе не стали жалеть и тот же час расправились.", "Выбраться самостоятельно", MessageBoxButtons.OK);
+                "Тебе не стали жалеть и тот же час расчленили.", "Выбраться самостоятельно", MessageBoxButtons.OK);
             this.Hide();
-            new Chapter4().Show();
+            new Lose().Show();
         }
 
         private void button2_Click(object sender, EventArgs e)

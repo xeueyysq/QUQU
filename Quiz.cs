@@ -17,27 +17,19 @@ namespace QUQU
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            if (textBox2.Text == "земля" || textBox2.Text == "Земля")
+            if (textBox4.Text == "земля" || textBox4.Text == "Земля")
             {
                 this.Hide();
                 new Chapter4().Show();
             }
             else
             {
-                MessageBox.Show("Ящеры съели вас за то, что вы не отгадали простейшую загадку. Вы проиграли.");
-                Environment.Exit(0);
+                MessageBox.Show("Ящеры съели вас за то, что вы не отгадали простейшую загадку", "Чел, ты нулевый", MessageBoxButtons.OK);
+                this.Hide();
+                new Lose().Show();
+                //Environment.Exit(0);
             }
         }
     }
